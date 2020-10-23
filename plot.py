@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from controllers import classify.classify_data
+from classify import classify_data
 
 #contagem de valores gerados
 classify_data(output['new_class'].value_counts().plot.bar(figsize=(10, 5),

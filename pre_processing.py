@@ -1,5 +1,6 @@
 from sklearn.preprocessing import LabelEncoder
-from data_frame import read_df
+from resource.data_frame import read_df
+
 def processing_data():
     df = read_df()
     x, y = df[['temperatura']].values, df[['classification']].values

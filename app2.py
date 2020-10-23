@@ -1,6 +1,6 @@
 from sklearn.preprocessing import LabelEncoder
 from sklearn.linear_model import LogisticRegression
-from controllers.classify import classify_data
+from classify import classify_data
 import numpy as np
 
 #sistema automático
